@@ -29,4 +29,12 @@ Install minimal_extjs4_app
     ) + staticfiles_urlpatterns()
 
 
+
+Deploy
+======
+
+See `djangosenchatools`_.
+
+
 .. _`django_extjs4`: https://github.com/espenak/django_extjs4
+.. _`djangosenchatools`: https://github.com/espenak/djangosenchatools
