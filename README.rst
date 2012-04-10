@@ -29,6 +29,9 @@ Most Django ExtJS apps have really simple needs on the serverside:
 The ``extjs4.views.Extjs4AppView`` class is a Django generic view that you just
 add to your ``urls.py``. You can override:
 
+    appname
+        This is required. The view expects your ``app.js`` to be located in
+        ``static/<appname>/``.
     title
         The ``<title></title>`` of the html document. Defaults
         to ``"ExtJS app"``.
