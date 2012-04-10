@@ -54,8 +54,11 @@ like ``minimal_extjs4_app/templates/minimal_extjs4_app/index.django.html``.
 - specify appFolder in the ExtJS application (see ``app.js``).
 
 
-Install minimal_extjs4_app
---------------------------
+Install minimal_extjs4_app or generic_extjs4_app
+================================================
+
+For this example we use ``minimal_extjs4_app``. The same instructions work for
+``generic_extjs4_app``.
 
 1. Install `django_extjs4`_.
 2. Copy ``minimal_extjs4_app/`` into your project and add it to ``INSTALLED_APPS``.
